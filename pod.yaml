@@ -3,6 +3,8 @@ kind: Pod
 metadata:
   name: nginx
   namespace: manuel
+  labels:
+    app: nginx
 spec:
   containers:
   - name: nginx
